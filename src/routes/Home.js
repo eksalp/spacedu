@@ -12,10 +12,10 @@ function Home (){
         heroImg="https://c.tadst.com/gfx/750w/un-child-rights.jpg"
         title="Title"
         text="text"
-        buttonText="button name"
-        url="/"   
-        // url for button
-        btnClass="show"
+        // buttonText="button name"
+        // url="/"   
+        // // url for button
+        // btnClass="show"
         />
 
       
