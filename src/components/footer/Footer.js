@@ -6,7 +6,7 @@ const Footer = () =>{
         <div className="top">
 
             <div>
-                <h1>xyz</h1>
+                <h1>name</h1>
                 <p>This is the Footer.</p>
             </div>
             <div>
