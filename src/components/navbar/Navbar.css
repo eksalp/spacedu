@@ -1,132 +1,150 @@
-.NavbarItems{
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .35);
-    width: 95%;
-    height: 80px;
-    border-radius: 13px;
-    left: 50%;
-    top: 20px;
-    position: fixed;
-    transform: translate(-50%);
-    font-size: 1.2rem;
+.NavbarItems {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 30px;
+  padding-left: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.35);
+  width: 95%;
+  height: 60px;
+  border-radius: 13px;
+  left: 50%;
+  top: 20px;
+  position: fixed;
+  transform: translate(-50%);
+  font-size: 1.2rem;
+  z-index: 1000;
 }
 
-.navbar-logo{
-    color: black;
-    font-size: 2rem;
-    cursor: pointer;
-   justify-self: start;
-
+.navbar-logo {
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+  justify-self: start;
 }
 
-.nav-menu{
-    display: grid;
-    grid-template-columns: repeat(5, auto);             
-    grid-gap: 20px;
-    list-style: none;
-    align-items: center;
-    justify-content: end;
+.logo {
+  width: 80px;
+  padding-top: 8px;
+  padding-left: 10px;
 }
 
-.nav-links{
-    text-decoration: none;
-    color: #222;
-    font-size: 1.2rem;
-    font-weight: 600;
-    padding: 0.7rem 1rem;
-    white-space: nowrap;
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+  justify-content: end;
+  margin-top: 16px;
 }
 
-.nav-links i{
-    padding-right: 10px;
+.nav-links {
+  text-decoration: none;
+  color: #222;
+  font-size: 1rem;
+  padding: 0.4rem 0.5rem;
+  white-space: nowrap;
 }
 
-.nav-links:hover{
-    background-color: rgba(64, 0, 255, 0.377);
-    color: rgb(221, 215, 98);
-   border-radius: 10px;
-    transition: all 0.2s ease-in-out;
+.nav-links i {
+  padding-right: 10px;
 }
 
-.nav-links-moblie{
-    display: none;
+.nav-links:hover {
+  background-color: #b6ceb8;
+  color: darkcyan;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.actived {
+  background-color: rgba(64, 0, 255, 0.377);
+  color: rgb(221, 215, 98);
+  border-radius: 10px;
 }
 
-.Signbtn{
-     padding: 0.6rem 1rem;
-     white-space: nowrap;
-     border-radius: 0.2rem;
-     font-size: 1rem;
-     font-weight: 600;
-     border: none;
-     cursor: pointer;
-     transition: 0.2s ease-in-out;
-     background: yellow;
-}
-.Signbtn:hover{
-    background-color: darkgreen;
-    color: rgb(247, 246, 246);
+.nav-links-moblie {
+  display: none;
 }
 
+.Signbtn {
+  padding: 0.6rem 1rem;
+  white-space: nowrap;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  background: yellow;
+}
+.Signbtn:hover {
+  background-color: darkgreen;
+  color: rgb(247, 246, 246);
+}
 
 /* Responsive navbar */
 
-.menu-icons{
-    display: none;
-     
+.menu-icons {
+  display: none;
 }
 
-@media screen and (max-width: 850px){
-    .NavbarItems{
-        z-index: 99 ;
+@media screen and (max-width: 850px) {
+  .NavbarItems {
+    z-index: 99;
+    padding-left: 0px;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #fff;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    align-items: stretch;
+    padding: 80px 0 20px 0;
+    margin: 0;
+  }
 
-    }
-    .nav-menu{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background: #fff;
-        width:  100%;
-        height: auto;
-        position:absolute;
-        top:  0;
-        left: -100%;
-        opacity: 0;
-        align-items: stretch;
-        padding: 80px 0 30px 0;
-        margin: 0;  
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+    z-index: -1;
+    border-radius: 10px;
+    transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out;
+  }
 
-    }
+  .nav-links {
+    display: block;
+    width: 100%;
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  .nav-links:hover {
+    /* background-color: rgb(100, 180, 220); */
+    transition: none;
+  }
 
-    .nav-menu.active{
-        left:  0;
-        opacity: 1;
-        z-index: -1;
+  .menu-icons {
+    display: block;
+  }
 
-    }
- 
-    .nav-links{
-        display: block;
-        width: 100%;
-        font-size: 1.2rem;
-        padding: 2rem 0;
-    }
-    .nav-links:hover{
-        /* background-color: rgb(100, 180, 220); */
-        transition: none;
-
-    }
-
-    .menu-icons{
-        display: block;
-    }
-
-    .menu-icons{
-        font-size: 1.2rem;
-        color: #222;
-    }
+  .menu-icons {
+    font-size: 1.2rem;
+    color: #222;
+  }
+  .Signbtn {
+    padding: 10px 1px 10px 1px;
+    background-color: red;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }

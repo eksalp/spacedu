@@ -1,29 +1,14 @@
- import Hero from "../components/hero_elemt/Hero";
-import Navbar from "../components/navbar/Navbar";
-import Footer  from "../components/footer/Footer";
+// import Hero from '../components/hero_elemt/Hero';
+import Awal from '../components/Home/Awal';
+import Navbar from '../components/navbar/Navbar';
 
-
-function Home (){
-    return(
-        <>
-        <Navbar/>
-        <Hero
-        cName="hero"
-        heroImg="https://c.tadst.com/gfx/750w/un-child-rights.jpg"
-        title="Title"
-        text="text"
-        // buttonText="button name"
-        // url="/"   
-        // // url for button
-        // btnClass="show"
-        />
-
-      
-        <Footer/>
-        </>
-
-    
-    )
+function Home() {
+  return (
+    <>
+      <Navbar />
+      <Awal />
+    </>
+  );
 }
 
 export default Home;
