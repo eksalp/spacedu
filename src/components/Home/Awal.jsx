@@ -3,11 +3,11 @@ import './awal.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import Footer from '../footer/Footer';
 import Carousel from './Carousel';
 import CTA from './CTA';
 import Accordionn from './Accordionn';
 import Testi from './Testi';
+import Stats from './Stats';
 
 const Awal = () => {
   useEffect(() => {
@@ -38,9 +38,6 @@ const Awal = () => {
         </div>
       </div>
 
-      <div className="partners">
-        <div className="container"></div>
-      </div>
       <svg className="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 100 1440 320">
         <path
           fill="#b6ceb8"
@@ -53,7 +50,7 @@ const Awal = () => {
         <div className="container">
           <div className="services-box">
             <div className="box">
-              <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i>
+              {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
               <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 Layanan Kami
               </h1>
@@ -105,7 +102,8 @@ const Awal = () => {
           </div>
         </div>
       </div>
-      <CTA />
+      <Stats />
+
       <div>
         <div className="services servicess">
           <div className="container">
@@ -142,6 +140,7 @@ const Awal = () => {
         <Accordionn />
       </div>
 
+      <CTA />
       <svg className="svg svgg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#b6ceb8"
@@ -149,8 +148,6 @@ const Awal = () => {
           d="M0,128L40,144C80,160,160,192,240,186.7C320,181,400,139,480,149.3C560,160,640,224,720,224C800,224,880,160,960,149.3C1040,139,1120,181,1200,181.3C1280,181,1360,139,1400,117.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
         ></path>
       </svg>
-
-      <Footer />
     </>
   );
 };

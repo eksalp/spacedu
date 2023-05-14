@@ -1,16 +1,15 @@
-// import Hero from '../components/hero_elemt/Hero';
-import Awal from '../components/Home/Awal';
+import To from '../components/tryout/To';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
 
-function Home() {
+function Tryout() {
   return (
     <>
       <Navbar />
-      <Awal />
+      <To />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default Tryout;

@@ -151,7 +151,7 @@
 
 .services {
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 .servicess {
@@ -403,6 +403,9 @@
 .loader.loader-active {
   display: none;
 }
+.accordion {
+  margin: 0px 150px;
+}
 
 @media screen and (max-width: 992px) {
   .navbar.nav-scroll-active {
@@ -479,9 +482,6 @@
   .footer .footer-box {
     grid-template-columns: 1fr;
     row-gap: 50px;
-  }
-  .accordion {
-    margin: 0px 50px;
   }
 }
 
@@ -635,8 +635,4 @@
 .blok {
   background-color: darkcyan;
   color: white;
-}
-
-.accordion {
-  margin: 0px 10px;
 }

@@ -9,33 +9,33 @@ export const MenuItems = [
   },
   {
     title: 'Program Tryout',
-    url: '/tryout',
+    url: '/Program-Tryout',
     cName: 'nav-links',
 
     active: false,
   },
   {
-    title: 'About',
-    url: '/about',
+    title: 'Tentang Spacedu',
+    url: '/Tentang-Spacedu',
     cName: 'nav-links',
     active: false,
   },
-  {
-    title: 'Contact',
-    url: '/contact',
-    cName: 'nav-links',
+  // {
+  //   title: 'Contact',
+  //   url: '/contact',
+  //   cName: 'nav-links',
 
-    active: false,
-  },
+  //   active: false,
+  // },
   {
     title: 'Blog',
-    url: '/blog',
+    url: '/Blog',
     cName: 'nav-links',
     active: false,
   },
   {
-    title: 'FAQ',
-    url: '/faq',
+    title: 'Contact Us',
+    url: '/Contact',
     cName: 'nav-links',
 
     active: false,

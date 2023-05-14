@@ -1,16 +1,15 @@
-// import Hero from '../components/hero_elemt/Hero';
-import Awal from '../components/Home/Awal';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
+import Laman from '../components/blog/Laman';
 
-function Home() {
+function Blog() {
   return (
     <>
       <Navbar />
-      <Awal />
+      <Laman />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default Blog;

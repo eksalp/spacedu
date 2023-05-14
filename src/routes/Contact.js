@@ -1,10 +1,13 @@
 import Navbar from '../components/navbar/Navbar';
-// import ContactImg from '../components/assets/1.jpg';
+import Footer from '../components/footer/Footer';
+import Kontak from '../components/contact/Kontak';
 
 function Contact() {
   return (
     <>
       <Navbar />
+      <Kontak />
+      <Footer />
     </>
   );
 }

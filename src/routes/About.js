@@ -1,16 +1,14 @@
-// import Hero from '../components/hero_elemt/Hero';
-import Awal from '../components/Home/Awal';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
-
-function Home() {
+import Tentang from '../components/about/Tentang';
+function About() {
   return (
     <>
       <Navbar />
-      <Awal />
+      <Tentang />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default About;
