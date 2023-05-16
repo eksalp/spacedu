@@ -53,15 +53,13 @@ const To = () => {
         ></path>
       </svg>
 
-      <div className="services services_to">
+      <div className="services">
         <div className="container">
           <div className="services-box">
             <div className="box">
               {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
-              <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Promo Saat Ini
-              </h1>
-              <h5>
+              <h1>Promo Saat Ini</h1>
+              <h5 data-aos="fade-up" data-aos-duration="1000">
                 Promo ini berakhir pada :{' '}
                 <span className="timer" id="countdown">
                   {' '}

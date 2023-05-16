@@ -33,11 +33,11 @@ export const MenuItems = [
     cName: 'nav-links',
     active: false,
   },
-  {
-    title: 'Contact Us',
-    url: '/Contact',
-    cName: 'nav-links',
+  // {
+  //   title: 'Contact Us',
+  //   url: '/Contact',
+  //   cName: 'nav-links',
 
-    active: false,
-  },
+  //   active: false,
+  // },
 ];
