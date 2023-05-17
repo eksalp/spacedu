@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import './kaki.css';
 import logo from './e.png';
 import pembayaran from './ee.png';
 
