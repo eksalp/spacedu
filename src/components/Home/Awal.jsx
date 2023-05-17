@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Carousel from './Carousel';
-import CTA from './CTA';
+// import CTA from './CTA';
 import Accordionn from './Accordionn';
 import Testi from './Testi';
 import Stats from './Stats';
@@ -140,7 +140,6 @@ const Awal = () => {
         <Accordionn />
       </div>
 
-      <CTA />
       <svg className="svg svgg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#b6ceb8"
