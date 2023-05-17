@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div class="box__footer r">
           <h4>Pembayaran</h4>
-          <img className="bayar" src={pembayaran} alt="" />
+          <img className="bayar" src={pembayaran} alt="footer" />
         </div>
 
         <div class="box__footer r">
