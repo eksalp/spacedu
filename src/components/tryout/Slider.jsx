@@ -3,6 +3,7 @@ import Swiper from 'swiper';
 // import 'swiper/swiper-bundle.min.css';
 import './slider.css';
 import { datato } from './datato';
+import ReactGA from 'react-ga4';
 
 const Slider = () => {
   const sliderRef = useRef(null);
@@ -63,7 +64,16 @@ const Slider = () => {
                     <br />
                     free grup belajar*
                   </p>
-                  <a href={item.link}>
+                  <a
+                    onClick={() => {
+                      ReactGA.event({
+                        action: 'TO Promo',
+                        category: 'Promo Tryout',
+                        label: `${item.judul}`,
+                      });
+                    }}
+                    href={item.link}
+                  >
                     <button className="button">Daftar Tryout</button>
                   </a>
                 </div>

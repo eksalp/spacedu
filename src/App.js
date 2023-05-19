@@ -6,6 +6,10 @@ import { Route, Routes } from 'react-router-dom';
 import Tryout from './routes/Tryout';
 import About from './routes/About';
 import Blog from './routes/Blog';
+// analytics.js
+import ReactGA from 'react-ga4';
+
+ReactGA.initialize('G-EV4JLXVRKZ');
 
 function App() {
   return (

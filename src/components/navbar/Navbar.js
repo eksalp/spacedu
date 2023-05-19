@@ -3,6 +3,15 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { MenuItems } from './MenuItems';
 import logo from '../footer/e.png';
+import ReactGA from 'react-ga4';
+
+//   const navigasi = () => {
+//   ReactGA.event({
+//     action: 'Click',
+//     category: 'Button Navbar',
+//     label: {itemcName},
+//   })
+// };
 
 class Navbar extends Component {
   // onclick state for responsive navbar
@@ -25,7 +34,16 @@ class Navbar extends Component {
           {MenuItems.map((item, index) => {
             //mapping indexes from menuitems
             return (
-              <li key={index}>
+              <li
+                onClick={() => {
+                  ReactGA.event({
+                    action: 'Click',
+                    category: 'Button Navbar',
+                    label: `${item.title}`,
+                  });
+                }}
+                key={index}
+              >
                 <Link className={item.cName} to={item.url}>
                   {item.title}
                 </Link>
