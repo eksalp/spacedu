@@ -134,3 +134,13 @@
 .oi {
   padding-top: 0px;
 }
+.comingsoon {
+  width: 80%;
+  border-radius: 10px;
+}
+.comings {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

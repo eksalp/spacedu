@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Home/awal.css';
 import './laman.css';
-import BlogCard from './BlogCard';
+// import BlogCard from './BlogCard';
 
 const Laman = () => {
   return (
@@ -26,13 +26,14 @@ const Laman = () => {
         ></path>
       </svg>
 
-      <BlogCard />
-
-      <div className="services oi">
+      {/* <BlogCard /> */}
+      <div className="comings">
+        <img className="comingsoon" src="https://drive.google.com/uc?export=view&id=1RrsgM-in__vIucEjisj7FRZV6mfmiVb0" alt="" />
+      </div>
+      {/* <div className="services oi">
         <div className="container">
           <div className="services-box">
             <div className="box">
-              {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
               <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 Promo mendatang
               </h1>
@@ -57,7 +58,7 @@ const Laman = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <svg className="svg svgg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#b6ceb8"

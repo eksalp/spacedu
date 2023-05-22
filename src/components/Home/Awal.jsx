@@ -55,48 +55,42 @@ const Awal = () => {
                 Layanan Kami
               </h1>
               <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae, quos pariatur! Mollitia atque veritatis perspiciatis ratione magni, doloribus fuga nihil.
+                Spacedu berkomitmen untuk memberikan pengalaman belajar yang berharga dan membantu Anda mencapai potensi maksimal Anda, sehingga Anda dapat berhasil dan meraih kesuksesan di tes CPNS serta Kedinasan.
               </p>
             </div>
             <div className="boxes">
               <div className="boxs">
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1ohmM_Xv2tCVKgSFR5dvsc9UWhhmlH_XQ" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1Z_x4IQASbJPgmr4AS52ARm6PMz1JLJNF" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
                 <div className="desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
                   <h1>
-                    Website <br />
-                    Development
+                    Bingung mau mulai <br />
+                    latihan darimana?
                   </h1>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo perferendis nisi quo. Deserunt magni doloribus quas! Eaque ullam, adipisci tenetur ad, obcaecati dolorem nobis voluptatibus dolores earum autem
-                    possimus.
-                  </p>
+                  <p>Tenang bestie, Spacedu punya buanyak latihan soal tryout yang bisa kamu kerjain dimanapun dan kapanpun, serta soal yang disajikan menggunakan tipe soal HOTS yang bikin kamu jadi terlatih.</p>
                 </div>
               </div>
               <div className="boxs">
                 <div className="desc" data-aos="fade-up" data-aos-duration="1000">
-                  <h1>
-                    Mobile <br />
-                    Development
-                  </h1>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo perferendis nisi quo. Deserunt magni doloribus quas! Eaque ullam, adipisci tenetur ad, obcaecati dolorem nobis voluptatibus dolores earum autem
-                    possimus.
-                  </p>
+                  <h1>Pengen tryout tapi gada duit😭😭</h1>
+                  <p>Hari gini masih mikir Tryout mehong? Stop bestie, Spacedu punya buanyak promo tryout yang bisa kamu gunakan untuk menghemat duit. Dompet aman, Tryout pun nyaman.</p>
                 </div>
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1ohmM_Xv2tCVKgSFR5dvsc9UWhhmlH_XQ" alt="" data-aos="zoom-in" data-aos-duration="1000" />
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1Q-m2G3x3FIHEfdnDdIL43qu91e8sx2bK" alt="" data-aos="zoom-in" data-aos-duration="1000" />
               </div>
               <div className="boxs">
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1ohmM_Xv2tCVKgSFR5dvsc9UWhhmlH_XQ" alt="" data-aos="zoom-in" data-aos-duration="1000" />
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1mf2qOFmzDEJ74YS6_VLmwvvq6ReAbpho" alt="" data-aos="zoom-in" data-aos-duration="1000" />
                 <div className="desc" data-aos="fade-up" data-aos-duration="1000">
-                  <h1>
-                    IOT <br />
-                    Development
-                  </h1>
+                  <h1>Pengen ikutan Tryout tapi berskala Nasional?</h1>
+                  <p>Wah kebetulan banget nihh, Spacedu menggunakan sistem penilaian yang digabung dengan seluruh peserta dari berbagain mcam daerah di Indonesia. Jadi, kamu bisa mempunyai gambaran persaingan dan keketatan.</p>
+                </div>
+              </div>
+              <div className="boxs">
+                <div className="desc" data-aos="fade-up" data-aos-duration="1000">
+                  <h1>Pengen punya grup belajar yang isinya rang-orang ambis, huhu</h1>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo perferendis nisi quo. Deserunt magni doloribus quas! Eaque ullam, adipisci tenetur ad, obcaecati dolorem nobis voluptatibus dolores earum autem
-                    possimus.
+                    Santuyy, setiap kamu melakukan pembelian tryout, sudah termasuk dengan grup belajar yang isinya orang-orang ambis. Jadi, kamu bisa belajar bareng serta bisa mendapatkan informasi promo Tryout lebih dulu dari Spacedu.
                   </p>
                 </div>
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1dicOXFhSrg22hfx8NDuXZmT3Xv4DZgt2" alt="" data-aos="zoom-in" data-aos-duration="1000" />
               </div>
             </div>
           </div>

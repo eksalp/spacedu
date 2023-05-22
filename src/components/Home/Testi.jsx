@@ -8,7 +8,8 @@ import './testi.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import Card from './Card';
+import './card.css';
+import { testidata } from './testidata';
 
 const Testi = () => {
   useEffect(() => {
@@ -34,27 +35,20 @@ const Testi = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <SwiperSlide className="slidee">
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide className="slidee">
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide className="slidee">
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide className="slidee">
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide className="slidee">
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide className="slidee">
-          <Card />
-        </SwiperSlide>
-        <SwiperSlide className="slidee">
-          <Card />
-        </SwiperSlide>
+        {testidata.map((item, index) => {
+          return (
+            <SwiperSlide key={index} className="slidee">
+              <div className="card">
+                <img className="card-image" src={item.link} alt="Gambar" />
+                <div className="card-content">
+                  <h2 className="card-title">{item.nama}</h2>
+                  <h6>{item.lulus}</h6>
+                  <p className="card-subtitle">{item.kata}</p>
+                </div>
+              </div>
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </>
   );
