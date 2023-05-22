@@ -84,13 +84,13 @@ const Awal = () => {
                 </div>
               </div>
               <div className="boxs">
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1dicOXFhSrg22hfx8NDuXZmT3Xv4DZgt2" alt="" data-aos="zoom-in" data-aos-duration="1000" />
                 <div className="desc" data-aos="fade-up" data-aos-duration="1000">
                   <h1>Pengen punya grup belajar yang isinya rang-orang ambis, huhu</h1>
                   <p>
                     Santuyy, setiap kamu melakukan pembelian tryout, sudah termasuk dengan grup belajar yang isinya orang-orang ambis. Jadi, kamu bisa belajar bareng serta bisa mendapatkan informasi promo Tryout lebih dulu dari Spacedu.
                   </p>
                 </div>
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1dicOXFhSrg22hfx8NDuXZmT3Xv4DZgt2" alt="" data-aos="zoom-in" data-aos-duration="1000" />
               </div>
             </div>
           </div>
