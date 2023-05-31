@@ -30,23 +30,20 @@ const Tentang = () => {
             <div className="box">
               {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
               <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Promo mendatang
+                Apa itu Spacedu?
               </h1>
               <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                Nantikan promo mendatang selanjutnya. Pantau terus media sosial dan website Spacedu dan Jangan sampai ketinggalan 😊😊.
+                Kepo kan sama Spacedu?? Yuk lihat dibawah inii..
               </p>
             </div>
             <div className="boxes">
               <div className="boxs">
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1ohmM_Xv2tCVKgSFR5dvsc9UWhhmlH_XQ" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
+                <img className="img" src="https://drive.google.com/uc?export=view&id=16ojb5qwNOtJJa9PiBoc_MgCbj-6zR7nb" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
                 <div className="desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                  <h1>
-                    Website <br />
-                    Development
-                  </h1>
+                  <h1>Spacedu</h1>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo perferendis nisi quo. Deserunt magni doloribus quas! Eaque ullam, adipisci tenetur ad, obcaecati dolorem nobis voluptatibus dolores earum autem
-                    possimus.
+                    Spacedu merupakan sebuah platform digital yang disiapkan guna menunjang persiapan tes Kedinasan dan CPNS. Platform ujian online yang bisa diakses dimanapun dan kapanpun dengan keunggulan soal yang HOTS, Sertifikat nilai
+                    setelah mengerjakan Tryout, Penilaian soal nasional, grup belajar, dan masih banyak lagi benefit yang didapat.
                   </p>
                 </div>
               </div>
@@ -63,10 +60,10 @@ const Tentang = () => {
             <div className="box">
               {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
               <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Promo mendatang
+                Kantor Spacedu
               </h1>
               <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                Nantikan promo mendatang selanjutnya. Pantau terus media sosial dan website Spacedu dan Jangan sampai ketinggalan 😊😊.
+                Kantor Spacedu berada di Provinsi Jawa Tengah Gaess. Kalo kalian mau kepoin bisa liat map di bawah ini yaaa...
               </p>
             </div>
             <div className="mapc">

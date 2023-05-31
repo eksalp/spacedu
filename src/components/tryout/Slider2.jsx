@@ -61,7 +61,8 @@ const Slider2 = () => {
                   <p className="description">
                     <span className="harga-promo">{item.harga}</span>
                     <br />
-                    free grup belajar*
+                    GRATIS*
+                    <br />- Penilaian Nasional <br />- Pembahasan Soal <br />- Sertifikat <br />- Grup Belajar
                   </p>
                   <a
                     onClick={() => {

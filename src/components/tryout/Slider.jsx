@@ -62,7 +62,8 @@ const Slider = () => {
                     <span className="harga-promo">{item.harga}</span>
                     <span className="coret">Rp19.500</span>
                     <br />
-                    free grup belajar*
+                    GRATIS*
+                    <br />- Penilaian Nasional <br />- Sertifikat <br />- Grup Belajar
                   </p>
                   <a
                     onClick={() => {

@@ -6,7 +6,7 @@ import Slider1 from './Slider1';
 import Slider2 from './Slider2';
 
 const To = () => {
-  var countDownDate = new Date('May 15, 2023 20:20:00').getTime();
+  var countDownDate = new Date('June 9, 2023 23:59:00').getTime();
 
   // Memperbarui hitungan mundur setiap 1 detik
   var x = setInterval(function () {
@@ -90,15 +90,12 @@ const To = () => {
             </div>
             <div className="boxes">
               <div className="boxs">
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1ohmM_Xv2tCVKgSFR5dvsc9UWhhmlH_XQ" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1zFlrE36hAeNcOr0TZ_MHuo2rAgP98nvy" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
                 <div className="desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
-                  <h1>
-                    Website <br />
-                    Development
-                  </h1>
+                  <h1>Buat Si Paling Promo...</h1>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex explicabo perferendis nisi quo. Deserunt magni doloribus quas! Eaque ullam, adipisci tenetur ad, obcaecati dolorem nobis voluptatibus dolores earum autem
-                    possimus.
+                    Buat kamu si paling promo hunter, Spacedu punya berbagai macam promo menarik yang bisa kamu dapetin setiap hari JUMAT. Inget yakk setiap Hari JUMAT ada potongan sampai dengan 70%* lhoo. Pokoknya pantengin terus dehh
+                    sosial media Spacedu.
                   </p>
                 </div>
               </div>

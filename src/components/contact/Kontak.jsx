@@ -42,38 +42,38 @@ const Kontak = () => {
         <img src={shape} className="square" alt="" />
         <div className="form">
           <div className="contact-info">
-            <h3 className="title-contact">Let's get in touch</h3>
-            <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolorum adipisci recusandae praesentium dicta!</p>
+            <h3 className="title-contact">Sini merapat..</h3>
+            <p className="text">Yokk buat kamu yang mau kepoin Spacedu</p>
 
             <div className="info">
               <div className="information">
                 <img src={location} className="icon" alt="" />
-                <p className="info-contact">92 Cherry Drive Uniondale, NY 11553</p>
+                <p className="info-contact">Asrama Uns, Kota Surakarta, Jawa Tengah 57126</p>
               </div>
               <div className="information">
                 <img src={email} className="icon" alt="" />
-                <p className="info-contact">lorem@ipsum.com</p>
+                <p className="info-contact">spaceduofficial@gmail.com</p>
               </div>
               <div className="information">
                 <img src={phone} className="icon" alt="" />
-                <p className="info-contact">123-456-789</p>
+                <p className="info-contact">081280669465</p>
               </div>
             </div>
 
             <div className="social-media">
-              <p>Connect with us :</p>
+              <p>follow sosial media Spacedu :</p>
               <div className="social-icons">
-                <a href="https://www.instagram.com/" className="ikonn">
+                <a href="https://www.google.com/" className="ikonn">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.instagram.com/" className="ikonn">
+                <a href="https://twitter.com/spaceduofficial" className="ikonn">
                   <i className="fab fa-twitter"></i>
                 </a>
                 <a href="https://www.instagram.com/" className="ikonn">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="https://www.instagram.com/" className="ikonn">
-                  <i className="fab fa-linkedin-in"></i>
+                <a href="https://www.tiktok.com/@spaceeducation" className="ikonn">
+                  <i className="fab fa-tiktok"></i>
                 </a>
               </div>
             </div>
@@ -84,11 +84,11 @@ const Kontak = () => {
             <span className="circle two"></span>
 
             <form action="index.html" autocomplete="off">
-              <h3 className="title">Contact us</h3>
+              <h3 className="title">Hubungi Kami</h3>
               <div className="input-container">
                 <input type="text" name="name" className="input" />
-                <label for="">Username</label>
-                <span>Username</span>
+                <label for="">Nama</label>
+                <span>Nama</span>
               </div>
               <div className="input-container">
                 <input type="email" name="email" className="input" />
@@ -97,13 +97,13 @@ const Kontak = () => {
               </div>
               <div className="input-container">
                 <input type="tel" name="phone" className="input" />
-                <label for="">Phone</label>
-                <span>Phone</span>
+                <label for="">No. Telp/WA</label>
+                <span>No. Telp/WA</span>
               </div>
               <div className="input-container textarea">
                 <textarea name="message" className="input"></textarea>
-                <label for="">Message</label>
-                <span>Message</span>
+                <label for="">Pesan Buat Spacedu</label>
+                <span>Pesan Buat Spacedu</span>
               </div>
               <input type="submit" value="Send" className="btn-contact" />
             </form>

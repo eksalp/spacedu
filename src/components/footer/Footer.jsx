@@ -30,7 +30,7 @@ const Footer = () => {
 
         <div class="box__footer r wes">
           <h4>Social Media</h4>
-          <a href="https://www.google.com/">
+          {/* <a href="https://www.google.com/">
             {' '}
             <i class="fab fa-facebook-square"></i> Facebook
           </a>
@@ -42,6 +42,19 @@ const Footer = () => {
           </a>
           <a href="https://www.google.com/">
             <i class="fab fa-instagram-square"></i> Instagram
+          </a> */}
+
+          <a href="https://www.google.com/">
+            <i className="fab fa-facebook"></i> Facebook
+          </a>
+          <a href="https://twitter.com/spaceduofficial">
+            <i className="fab fa-twitter"></i> Twitter
+          </a>
+          <a href="https://www.instagram.com/">
+            <i className="fab fa-instagram"></i> Instagram
+          </a>
+          <a href="https://www.tiktok.com/@spaceeducation">
+            <i className="fab fa-tiktok"></i> Tiktok
           </a>
         </div>
       </div>
