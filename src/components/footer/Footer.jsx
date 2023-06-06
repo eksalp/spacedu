@@ -44,13 +44,13 @@ const Footer = () => {
             <i class="fab fa-instagram-square"></i> Instagram
           </a> */}
 
-          <a href="https://www.google.com/">
+          <a href="https://www.facebook.com/">
             <i className="fab fa-facebook"></i> Facebook
           </a>
           <a href="https://twitter.com/spaceduofficial">
             <i className="fab fa-twitter"></i> Twitter
           </a>
-          <a href="https://www.instagram.com/">
+          <a href="https://www.instagram.com/spaceduofficial">
             <i className="fab fa-instagram"></i> Instagram
           </a>
           <a href="https://www.tiktok.com/@spaceeducation">

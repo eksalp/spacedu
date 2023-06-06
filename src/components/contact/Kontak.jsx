@@ -63,13 +63,13 @@ const Kontak = () => {
             <div className="social-media">
               <p>follow sosial media Spacedu :</p>
               <div className="social-icons">
-                <a href="https://www.google.com/" className="ikonn">
+                <a href="https://www.facebook.com/" className="ikonn">
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 <a href="https://twitter.com/spaceduofficial" className="ikonn">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.instagram.com/" className="ikonn">
+                <a href="https://www.instagram.com/spaceduofficial" className="ikonn">
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="https://www.tiktok.com/@spaceeducation" className="ikonn">

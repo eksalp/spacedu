@@ -6,7 +6,7 @@ import Slider1 from './Slider1';
 import Slider2 from './Slider2';
 
 const To = () => {
-  var countDownDate = new Date('June 9, 2023 23:59:00').getTime();
+  var countDownDate = new Date('June 22, 2023 23:59:00').getTime();
 
   // Memperbarui hitungan mundur setiap 1 detik
   var x = setInterval(function () {
