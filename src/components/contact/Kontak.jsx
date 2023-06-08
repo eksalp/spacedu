@@ -129,7 +129,7 @@ const Kontak = () => {
             <span className="circle one"></span>
             <span className="circle two"></span>
 
-            <form ref={form} onSubmit={sendEmail} action="index.html" autocomplete="off">
+            <form ref={form} onSubmit={sendEmail}>
               <h3 className="title">Hubungi Kami</h3>
               <div className="input-container">
                 <input onChange={(event) => setFormula({ ...formula, name: event.target.value })} value={formula.name} type="text" name="name" className="input" />
