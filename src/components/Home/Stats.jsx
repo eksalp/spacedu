@@ -1,16 +1,10 @@
 import React from 'react';
 import './carousel.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 const Stats = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section className="stats" aria-label="our stats">
-      <div className="container_stats" data-aos="fade-up" data-aos-duration="1000">
+      <div className="container_stats">
         <ul className="stats-card has-bg-image">
           <li>
             <p className="card-text">

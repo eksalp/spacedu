@@ -1,8 +1,5 @@
 import React from 'react';
 import './awal.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 import Carousel from './Carousel';
 // import CTA from './CTA';
 import Accordionn from './Accordionn';
@@ -10,23 +7,19 @@ import Testi from './Testi';
 import Stats from './Stats';
 
 const Awal = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
   return (
     <>
       <div className="header">
         <div className="header-box">
           <div className="title">
-            <h1 className="animate__animated animate__jackInTheBox animate__delay-1s">
+            <h1>
               Persiapkan Dirimu
               <br />
               Untuk <span className="blok">Hasil Terbaik</span>
               <br />
               Bersama Spacedu Pasti Bisa!
             </h1>
-            <p className="animate__animated animate__fadeInUp animate__delay-1s">
+            <p>
               "Ketika kamu sedang bermalas-malasan, <br />
               ingatlah ribuan pesaingmu sedang berusaha keras untuk mengalahkanmu."
             </p>
@@ -50,18 +43,14 @@ const Awal = () => {
         <div className="container">
           <div className="services-box">
             <div className="box">
-              {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
-              <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Layanan Kami
-              </h1>
-              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                Spacedu berkomitmen untuk memberikan pengalaman belajar yang berharga dan membantu Anda mencapai potensi maksimal Anda, sehingga Anda dapat berhasil dan meraih kesuksesan di tes CPNS serta Kedinasan.
-              </p>
+              {/* <i className="fa-solid fa-award"></i> */}
+              <h1>Layanan Kami</h1>
+              <p>Spacedu berkomitmen untuk memberikan pengalaman belajar yang berharga dan membantu Anda mencapai potensi maksimal Anda, sehingga Anda dapat berhasil dan meraih kesuksesan di tes CPNS serta Kedinasan.</p>
             </div>
             <div className="boxes">
               <div className="boxs">
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1Z_x4IQASbJPgmr4AS52ARm6PMz1JLJNF" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
-                <div className="desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1Z_x4IQASbJPgmr4AS52ARm6PMz1JLJNF" alt="" />
+                <div className="desc">
                   <h1>
                     Bingung mau mulai <br />
                     latihan darimana?
@@ -70,22 +59,22 @@ const Awal = () => {
                 </div>
               </div>
               <div className="boxs">
-                <div className="desc" data-aos="fade-up" data-aos-duration="1000">
+                <div className="desc">
                   <h1>Pengen tryout tapi gada duit😭😭</h1>
                   <p>Hari gini masih mikir Tryout mehong? Stop bestie, Spacedu punya buanyak promo tryout yang bisa kamu gunakan untuk menghemat duit. Dompet aman, Tryout pun nyaman.</p>
                 </div>
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1Q-m2G3x3FIHEfdnDdIL43qu91e8sx2bK" alt="" data-aos="zoom-in" data-aos-duration="1000" />
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1Q-m2G3x3FIHEfdnDdIL43qu91e8sx2bK" alt="" />
               </div>
               <div className="boxs">
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1mf2qOFmzDEJ74YS6_VLmwvvq6ReAbpho" alt="" data-aos="zoom-in" data-aos-duration="1000" />
-                <div className="desc" data-aos="fade-up" data-aos-duration="1000">
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1mf2qOFmzDEJ74YS6_VLmwvvq6ReAbpho" alt="" />
+                <div className="desc">
                   <h1>Pengen ikutan Tryout tapi berskala Nasional?</h1>
-                  <p>Wah kebetulan banget nihh, Spacedu menggunakan sistem penilaian yang digabung dengan seluruh peserta dari berbagain mcam daerah di Indonesia. Jadi, kamu bisa mempunyai gambaran persaingan dan keketatan.</p>
+                  <p>Wah kebetulan banget nihh, Spacedu menggunakan sistem penilaian yang digabung dengan seluruh peserta dari seluruh daerah di Indonesia. Jadi, kamu bisa mempunyai gambaran persaingan dan keketatan.</p>
                 </div>
               </div>
               <div className="boxs">
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1dicOXFhSrg22hfx8NDuXZmT3Xv4DZgt2" alt="" data-aos="zoom-in" data-aos-duration="1000" />
-                <div className="desc" data-aos="fade-up" data-aos-duration="1000">
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1dicOXFhSrg22hfx8NDuXZmT3Xv4DZgt2" alt="" />
+                <div className="desc">
                   <h1>Pengen punya grup belajar yang isinya rang-orang ambis, huhu</h1>
                   <p>
                     Santuyy, setiap kamu melakukan pembelian tryout, sudah termasuk dengan grup belajar yang isinya orang-orang ambis. Jadi, kamu bisa belajar bareng serta bisa mendapatkan informasi promo Tryout lebih dulu dari Spacedu.
@@ -103,12 +92,8 @@ const Awal = () => {
           <div className="container">
             <div className="services-box">
               <div className="box">
-                <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                  Testimoni
-                </h1>
-                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                  Apa kata mereka?
-                </p>
+                <h1>Testimoni</h1>
+                <p>Apa kata mereka?</p>
               </div>
             </div>
           </div>
@@ -121,12 +106,8 @@ const Awal = () => {
           <div className="container">
             <div className="services-box">
               <div className="box">
-                <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                  Frequently Asked Question
-                </h1>
-                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                  Apa saja yang sering ditanyakan?
-                </p>
+                <h1>Frequently Asked Question</h1>
+                <p>Apa saja yang sering ditanyakan?</p>
               </div>
             </div>
           </div>

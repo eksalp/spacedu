@@ -6,7 +6,7 @@ export const datato = [
     link: 'https://forms.gle/DjMfCQ4JLnw8XfXu5',
   },
   {
-    gambar: 'https://drive.google.com/uc?export=view&id=1XbRlCZb9UB5CAAs7TKu7MMu2pRPzEX3j',
+    gambar: 'https://drive.google.com/uc?export=view&id=13bt2oFObEbneFcPm_YcJsRrGcAhOEJP5',
     judul: 'Tryout SKD Batch 1 CPNS',
     harga: 'Gratis ',
     link: 'https://forms.gle/Divqzt3baoBL8RdB8',

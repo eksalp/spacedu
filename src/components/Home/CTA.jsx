@@ -1,13 +1,7 @@
 import React from 'react';
 import './carousel.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 const CTA = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section class="cta">
       <div class="container_cta">

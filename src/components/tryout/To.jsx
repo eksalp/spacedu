@@ -57,17 +57,15 @@ const To = () => {
         <div className="container">
           <div className="services-box">
             <div className="box">
-              {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
+              {/* <i className="fa-solid fa-award" ></i> */}
               <h1>Promo Saat Ini</h1>
-              <h5 data-aos="fade-up" data-aos-duration="1000">
+              <h5>
                 Promo ini berakhir pada :{' '}
                 <span className="timer" id="countdown">
                   {' '}
                 </span>
               </h5>
-              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                Anda bisa mendapatkan potogan harga untuk Tryout SKD di bawah ini dan gratis grup belajar.
-              </p>
+              <p>Anda bisa mendapatkan potogan harga untuk Tryout SKD di bawah ini dan gratis grup belajar.</p>
             </div>
             <div className="">
               <Slider />
@@ -80,18 +78,14 @@ const To = () => {
         <div className="container">
           <div className="services-box">
             <div className="box">
-              {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
-              <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Promo mendatang
-              </h1>
-              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                Nantikan promo mendatang selanjutnya. Pantau terus media sosial dan website Spacedu dan Jangan sampai ketinggalan 😊😊.
-              </p>
+              {/* <i className="fa-solid fa-award" ></i> */}
+              <h1>Promo mendatang</h1>
+              <p>Nantikan promo mendatang selanjutnya. Pantau terus media sosial dan website Spacedu dan Jangan sampai ketinggalan 😊😊.</p>
             </div>
             <div className="boxes">
               <div className="boxs">
-                <img className="img" src="https://drive.google.com/uc?export=view&id=1zFlrE36hAeNcOr0TZ_MHuo2rAgP98nvy" alt="" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" />
-                <div className="desc" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                <img className="img" src="https://drive.google.com/uc?export=view&id=1zFlrE36hAeNcOr0TZ_MHuo2rAgP98nvy" alt="" data-aos="zoom-in" data-aos-duration="1000" />
+                <div className="desc">
                   <h1>Buat Si Paling Promo...</h1>
                   <p>
                     Buat kamu si paling promo hunter, Spacedu punya berbagai macam promo menarik yang bisa kamu dapetin setiap hari JUMAT. Inget yakk setiap Hari JUMAT ada potongan sampai dengan 70%* lhoo. Pokoknya pantengin terus dehh
@@ -108,13 +102,9 @@ const To = () => {
         <div className="container">
           <div className="services-box">
             <div className="box">
-              {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
-              <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Tryout Kedinasan
-              </h1>
-              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                Drill dan push latihan soal. Jangan kasih kendor untuk bisa lolos dari ratusan ribu peserta tes kedinasan.
-              </p>
+              {/* <i className="fa-solid fa-award" ></i> */}
+              <h1>Tryout Kedinasan</h1>
+              <p>Drill dan push latihan soal. Jangan kasih kendor untuk bisa lolos dari ratusan ribu peserta tes kedinasan.</p>
             </div>
             <div className="">
               <Slider1 />
@@ -127,13 +117,9 @@ const To = () => {
         <div className="container">
           <div className="services-box">
             <div className="box boxi">
-              {/* <i className="fa-solid fa-award" data-aos="fade-up" data-aos-duration="1000"></i> */}
-              <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                Tryout CPNS
-              </h1>
-              <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
-                Latihan soal sampe mampuss biar auto luluss.
-              </p>
+              {/* <i className="fa-solid fa-award" ></i> */}
+              <h1>Tryout CPNS</h1>
+              <p>Latihan soal sampe mampuss biar auto luluss.</p>
             </div>
             <div className="">
               <Slider2 />

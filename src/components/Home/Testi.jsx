@@ -5,16 +5,10 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper';
 import './testi.css';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 import './card.css';
 import { testidata } from './testidata';
 
 const Testi = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
       <Swiper
@@ -32,8 +26,6 @@ const Testi = () => {
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
         className="swiperrr"
-        data-aos="fade-up"
-        data-aos-duration="1000"
       >
         {testidata.map((item, index) => {
           return (
