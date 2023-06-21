@@ -1,15 +1,15 @@
 export const datato = [
   {
-    gambar: 'https://drive.google.com/uc?export=view&id=1X5TZtjcWFCjnLuwFAhV26gu5v6ns_eaY',
+    gambar: 'https://drive.google.com/uc?export=view&id=18KObJfG9lLvNYq_N1OwJcXd4T_pt8p4_',
     judul: 'Tryout SKD Batch 1 Kedinasan ',
     harga: 'Gratis ',
     link: 'https://forms.gle/DjMfCQ4JLnw8XfXu5',
   },
   {
-    gambar: 'https://drive.google.com/uc?export=view&id=13bt2oFObEbneFcPm_YcJsRrGcAhOEJP5',
+    gambar: 'https://drive.google.com/uc?export=view&id=1zxcuHTdx1oAHPbeFKLbzNP98irOaD1-f',
     judul: 'Tryout SKD Batch 1 CPNS',
     harga: 'Gratis ',
-    link: 'https://forms.gle/Divqzt3baoBL8RdB8',
+    link: 'https://forms.gle/wzd4az2KXVfmor126',
   },
   // {
   //   gambar: 'https://drive.google.com/uc?export=view&id=17eYFyxtZAnDwbezG9hAIybhPLh5JFMvn',

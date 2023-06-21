@@ -22,10 +22,15 @@ const Footer = () => {
 
         <div class="box__footer r">
           <h4>Jelajah</h4>
-          <p className="p sizee">Panduan Pendaftaran</p>
-          <p className="p sizee">Panduan Pembayaran</p>
-          <p className="p sizee">FAQ Peserta</p>
-          <p className="p sizee">Cara Gabung Grub Belajar</p>
+          <a href="https://drive.google.com/file/d/1qJNEFZcXCjW8W9QyMBTPsZ_9ll0b_LyI/view?usp=sharing">
+            <p className="p sizee">Panduan Pendaftaran</p>
+          </a>
+          <a href="">
+            <p className="p sizee">Panduan Pembayaran</p>
+          </a>
+          <a href="">
+            <p className="p sizee">Panduan Pengerjaan</p>
+          </a>
         </div>
 
         <div class="box__footer r wes">
@@ -44,8 +49,11 @@ const Footer = () => {
             <i class="fab fa-instagram-square"></i> Instagram
           </a> */}
 
-          <a href="https://www.facebook.com/">
-            <i className="fab fa-facebook"></i> Facebook
+          <a href="https://wa.me/+6285172228039">
+            <i className="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="https://www.linkedin.com/company/spaceducationofficial">
+            <i className="fab fa-linkedin"></i> LinkedIn
           </a>
           <a href="https://twitter.com/spaceduofficial">
             <i className="fab fa-twitter"></i> Twitter

@@ -19,7 +19,7 @@ export const testidata = [
   },
   {
     link: 'https://drive.google.com/uc?export=view&id=1HipycJREUsq3yBiGQYRgN_BOy-p9FzbV',
-    nama: 'Luqman Elhakim',
+    nama: 'Reodafi wahyu',
     lulus: 'Kemenkumham 2022',
     kata: 'Seru baanget pas gabung grup belajar dan dapet sertifikat buat evaluasi',
   },
