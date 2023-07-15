@@ -63,7 +63,7 @@ const Slider = () => {
                     <span className="coret">Rp19.500</span>
                     <br />
                     Free
-                    <br />- Penilaian Nasional <br />- Sertifikat <br />- Grup Belajar
+                    <br />- Penilaian Nasional <br />- Sertifikat <br />- Grup Belajar <br />- Kunci Jawaban
                   </p>
                   <a
                     onClick={() => {
