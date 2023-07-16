@@ -25,10 +25,10 @@ const Footer = () => {
           <a href="https://drive.google.com/file/d/1qJNEFZcXCjW8W9QyMBTPsZ_9ll0b_LyI/view?usp=sharing">
             <p className="p sizee">Panduan Pendaftaran</p>
           </a>
-          <a href="https://drive.google.com/">
+          <a href="https://drive.google.com/file/d/14QG5LuwzzlpZoSjbhulgFt-1KB-Mpb6K/view?usp=sharing">
             <p className="p sizee">Panduan Pembayaran</p>
           </a>
-          <a href="https://drive.google.com/">
+          <a href="https://drive.google.com/file/d/1GHU5NQz0rJb6zhsa63cwYPvan0LOlJOC/view?usp=sharing">
             <p className="p sizee">Panduan Pengerjaan</p>
           </a>
         </div>
